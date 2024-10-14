@@ -1,0 +1,187 @@
+1>	Which is correct syntax of starting point of main function in TURBO C++?
+
+<A> 		void main()			<B>	void main ();
+<C>		voidmain()				<D>    int main ()
+
+2>	 Which is correct syntax for declaring an int variable in C-programming?
+<A>		int age				<B>		int age;
+<C>		integer age,			<D>		var age
+
+3>	Which is the correct function to use for clearing screen in TURBO C++?
+<A> 		cerscr();				<B>	clrscr()
+<C>		clrscr();				<D>	clrscr;	
+
+4>	 Which is correct statement to take int input value from user? If variable name is age;
+<A>		scanf(“Enter number %d”, age);
+<B>		scanf(“\n%d”, &age);
+<C>		scanf(“%d”, &age);
+<D>		scanf(“d%”, &age);
+
+5>	 Which is correct statement to print float variable, if variable name if marks.
+<A>	printf (“%d “, marks);			<B> 	printf (“%d”, &marks);
+<C> 	scanf(“%f”, marks);			<D>	printf(“%f”, marks );
+
+6>	  Which is correct statement to declare char variable and assign value to it.
+<A>  char  ch = a;				<B> char ch = “AB”;
+<C>	char ch = ‘a’;				<D>  char ch = “A”; 	
+<D>  char ch = ‘1’;
+
+
+
+7>	 Which of the below are not part of 32-Keywords of C-programming language.
+<A> 	int				<B>		if
+<C>	var				<D>		for
+
+8>	 Which of the below options is not type of loops in C
+     <A>   switch loop		<B>	for loop
+	<C>	while loop			<D>	do-while loop
+
+9>	 Which is correct syntax to assign value to integer variable, if variable name if counter.
+<A>	counter = 10			<B>   counter -> 10;
+<C>   counter == 10			<D>   counter = 10;
+10>	Please see below code – What will be the output of below program.
+
+#include<stdio.h>
+#include<conio.h>
+Void main()
+{
+	Int firstNum=10;
+	Int secondNum = 20;
+	firstNum = secondNum;
+	secondNum = firstNum;
+	printf(“ \n firstNum = %d  ”, firstNum);
+	printf(“ \n secondNum = %d” , secondNum);
+	getch();
+}
+
+<A>	 firstNum = 10		<B>	firstNum = 20
+	secondNum = 20		secondNum = 20
+
+<C>	firstNum = 10		<D>	firstNum = 10
+	secondNum = 10		secondNum=20
+11>	Please see below program and select which one is correct output.
+
+#include<stdio.h>
+#include<conio.h>
+Void main()
+{
+	Int num_1 = 10;
+	Int num_2 = 20;
+	If(num_1 = = num_2)
+	{
+		Printf(“\n Hello”);
+			}
+			else
+			{
+				Printf(“bye”);
+			}
+			getch();
+		}
+	<A>   Hello				<B> Hello bye
+	<C>   bye				<D> Hello Hello
+
+12>	How logical-AND operator denoted in C programming?
+<A>    &		<B>	&&
+<C>	||		<D>  AND
+
+13>	How Logical-OR operator denoted in C-Programming?
+<A>	||			<B>	OR
+<C>	!			<D>	|
+
+14>	What will be the result if we perform logical – AND operation on below input.
+
+A		B		A && B
+1		0		??
+	<A>		1			 <B>		0
+	<C>		2			<D>		10
+
+15>	What will be the output of below program.
+
+#include<stdio.h>
+#include<conio.h>
+Void main()
+{
+	Int num = 13;
+	Int result = num % 10;
+	printf(“%d” , result);
+	getch();
+}
+
+<A>		0		<B>   		3
+<C> 		1		<D>		2
+
+
+16>	Which is NOT the functionality of compiler?
+<A>   Checking the error	<B>	convert C-code to machine code
+<C>	clear the screen		<D> 	Both A and B
+
+17>	Fill in the blanks .
+_____________ variable is the variable whose value can not be changed once assigned.
+		<A>	 float				<B>		temporary variable
+		<C>	constant			<D>		 integer
+18>	What will be the output of below program.
+#include<stdio.h>
+#include<conio.h>
+Void main()
+{
+	Int num = 13;
+	Int result = num % 10;
+	printf(“%d” , result);
+	getch();
+}
+
+<A>		0		<B>   		3
+<C> 		1		<D>		2
+
+19>	What will be the output of below program.
+
+#include<stdio.h>
+#include<conio.h>
+Void main()
+{
+	int num = 13;
+	float	 pi = 3.14;
+	char	ch = ‘A’;
+	printf(“  num =  %c   pi = %d   char = %f” ,  ch, num, pi);
+	getch();
+}
+	<A>	 num = 13 pi = 3.14 char = A
+	<B>    num = A  pi = 13 char = 3.14
+	<C>    num = 13 pi = A  char = 3.14
+	<D>    pi= 3.14 num = 13 char = A
+
+
+
+
+20>	Which one is the correct syntax of conditional statement.
+<A>	 if {  num > 10 }
+	 {
+	 }
+<B>	if( num < 10 )
+	{
+	}
+<C>  if (num > 10 );
+	{
+	}
+<D>   if( num == 10 )
+{
+	};
+
+21>	Fill in the blanks…What we need to write inside if – block so that we will get the output ---   num is even number
+#include<stdio.h>
+	#include<conio.h>
+	void main()
+	{
+	   clrscr();
+	   int num;
+	   num = 10;
+	   if(____________)
+	   {
+	      printf("\n num is even number");
+	   } 
+	   getch();
+	}
+<A>	 num / 2 == 0 		<B>  num == 0
+<C>	 num % 2 == 1		<D>	num % 2 == 0
+	
+

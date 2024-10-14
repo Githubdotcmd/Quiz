@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #3498db, #2ecc71);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+/* Question Container */
+.question-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Question Styling */
+.question {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Answer Options */
+.answer {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 20px;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+/* Correct Answer Highlight */
+.correct {
+    color: #27ae60; /* Green */
+}
+
+/* Incorrect Answer Highlight */
+.incorrect {
+    color: #e74c3c; /* Red */
+}
+
+/* Hover Effects for Answers */
+.answer:hover {
+    color: #2980b9; /* Blue on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .question {
+        font-size: 1.1em;
+    }
+
+    .answer {
+        font-size: 1em;
+    }
+}
